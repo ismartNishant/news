@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  .navbar-toggler:focus {
+     box-shadow: none !important; 
+}
+.navbar-dark .navbar-toggler {
+  border:none !important;
+  color: #fff !important;
+}
+  .nav-item{
+    border:1px solid rgba(126, 126, 126, 0.784);
+    padding: 0rem 1rem;
+    border-bottom: 3px solid #000000;
+  }
+  .nav-item:hover{
+    border-bottom: 3px solid #fde004;
+  }
+  .nav-item .nav-link{
+    color: #fff !important;
+  }
+  .bx{
+    font-size: 1.5rem;
+  }
+  .container{
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .inner-card{
+    padding: 0rem 1rem;
+    position: relative;
+  }
+  .left-card .inner-card div{
+    position: absolute !important;
+    top: 10rem !important;
+  }
+  .right-card .inner-card div{
+   position: absolute !important;
+   top: 5rem !important;
+  }
+  
+
+  @media  (max-width: 600px){
+    .left-card h3,
+    .left-card h4
+    {
+      font-size: .4rem;
+    }
+    .right-card h5,
+    .right-card h4{
+      font-size: .3rem;
+    }
+    .left-card h4,
+    .right-card h4{
+      padding-left: .3rem !important;
+    }
+    .container {
+      padding: 1rem .5rem !important;
+    }
+   .title1{
+     font-size: 1rem;
+   }
+   .left-card .inner-card div{
+    top: 2rem !important;
+   }
+   .right-card .inner-card div{
+    top: 1rem !important;
+   }
+   .inner-card p{
+     font-size: .3rem;
+   }
+   .inner-card {
+     padding: 0rem .3rem;
+   }
+   
+ 
+  }
